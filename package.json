@@ -1,0 +1,30 @@
+{
+  "name": "es6-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlenda/es6-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erlenda/es6-redux/issues"
+  },
+  "homepage": "https://github.com/erlenda/es6-redux#readme",
+  "dependencies": {
+    "deep-freeze": "0.0.1",
+    "expect": "^1.14.0",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
