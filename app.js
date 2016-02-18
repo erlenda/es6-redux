@@ -17,7 +17,20 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // redux
 // TODO: Start with egghead.io
 
+var counter = function counter() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? 0 : arguments[0];
+  var action = arguments[1];
+};
+
+var _Redux = Redux;
+var createStore = _Redux.createStore;
+
+var store = createStore(counter);
+
+var stateBefore = {};
+
 // tests
-(0, _expect2.default)("s").toEqual("s");
+(0, _expect2.default)(counter(stateBefore, action)).toEqual(stateAfter);
+
 console.log("all tests OK");
 //# sourceMappingURL=app.js.map

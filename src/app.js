@@ -5,9 +5,18 @@ import redux from 'redux'
 import deepfreeze from 'deep-freeze'
 
 // redux
-// TODO: Start with egghead.io 
+// TODO: Start with egghead.io
 
+const counter = (state = 0, action) => {
+};
+
+const { createStore } = Redux;
+const store = createStore(counter)
+
+var stateBefore = {
+};
 
 // tests
-expect("s").toEqual("s");
+expect(counter(stateBefore, action)).toEqual(stateAfter);
+
 console.log("all tests OK")
