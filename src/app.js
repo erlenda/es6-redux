@@ -13,7 +13,7 @@ const counter = (state = 0, action) => {
     case 'INCREMENT':
       return state + 1
     case 'DECREMENT':
-      return state - 1;
+      return state - 1
   }
 };
 
@@ -27,7 +27,7 @@ const action = 'INCREMENT'
 deepfreeze(stateBefore)
 deepfreeze(stateAfter)
 
-expect(counter(stateBefore, action)).toEqual(stateAfter);
+expect(counter(stateBefore, action)).toEqual(stateAfter)
 
 // tests decrement
 const stateBefored = 2
@@ -37,5 +37,5 @@ const actiond = 'DECREMENT'
 deepfreeze(stateBefored)
 deepfreeze(stateAfterd)
 
-expect(counter(stateBefored, actiond)).toEqual(stateAfterd);
-console.log("all tests OK");
+expect(counter(stateBefored, actiond)).toEqual(stateAfterd)
+console.log("all tests OK")
